@@ -26,7 +26,7 @@ const Cell = ({
     <button
       key={`${i}-${j}`}
       onClick={() => clickACell(i, j)}
-      className={`${classes} size-32 flex justify-center items-center text-2xl p-3 border-[#FFC0CB]`}
+      className={`${classes} w-[135px] h-[152px] md:size-52 flex justify-center items-center text-2xl py-3 border-[#FFC0CB]`}
     >
       <span
         className={`${

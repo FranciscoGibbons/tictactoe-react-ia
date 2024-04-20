@@ -198,15 +198,15 @@ export default function App() {
     let classes = "";
 
     if (i === 1 && j === 1) {
-      classes += "border-[14px] md:border-[20px] border-[#FFC0CB]";
+      classes += "border-[14px] md:border-[20px] border-[#FFC0CB ";
     }
   
     if (j - 1 >= 0 && j + 1 < 3) {
-      classes += "border-x-[14px] md:border-x-[20px] border-[#FFC0CB]";
+      classes += "border-x-[14px] md:border-x-[20px] border-[#FFC0CB] ";
     }
     
     if (i - 1 >= 0 && i + 1 < 3) {
-      classes += "border-y-[14px] md:border-y-[20px] border-[#FFC0CB]";
+      classes += "border-y-[14px] md:border-y-[20px] border-[#FFC0CB] ";
     }
   
     return classes.length > 0 ? classes : "";
